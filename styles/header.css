@@ -63,7 +63,7 @@
     .header__nav-link {
         font-size: 16px;
     }
-    .btn {
+    .header__actions .btn {
         font-size: 16px;
         width: 120px;
     }
@@ -72,5 +72,14 @@
 @media (max-width: 768px) {
     .header__nav {
         display: none;
+    }
+    .header__wrapper {
+        padding: 0 0 0 45px;
+    }
+}
+
+@media (max-width: 390px) {
+    .header__actions .btn {
+        width: 90px;
     }
 }
